@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс-лист — CoffeeTime</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ================= ШАПКА ================= -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__emoji">☕</span>
+                <span class="logo__text">CoffeeTime</span>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Главная</a></li>
+                    <li><a href="about.html" class="nav__link">О компании</a></li>
+                    <li><a href="menu.html" class="nav__link">Меню</a></li>
+                    <li><a href="price.html" class="nav__link nav__link--active">Прайс-лист</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= ЗАГОЛОВОК ================= -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">Прайс-лист</h1>
+            <p class="page-header__subtitle">Актуальные цены на наши напитки и десерты</p>
+        </div>
+    </section>
+
+    <!-- ================= ТАБЛИЦА ================= -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">Кофе и напитки</h2>
+
+            <div class="price-table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Наименование</th>
+                            <th>Объём</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Горячие напитки -->
+                        <tr class="price-row--hot">
+                            <td>1</td>
+                            <td>Эспрессо</td>
+                            <td>40 мл</td>
+                            <td>120 ₽</td>
+                        </tr>
+                        <tr class="price-row--hot">
+                            <td>2</td>
+                            <td>Американо</td>
+                            <td>200 мл</td>
+                            <td>150 ₽</td>
+                        </tr>
+                        <tr class="price-row--hot">
+                            <td>3</td>
+                            <td>Капучино</td>
+                            <td>300 мл</td>
+                            <td>180 ₽</td>
+                        </tr>
+                        <tr class="price-row--hot">
+                            <td>4</td>
+                            <td>Латте</td>
+                            <td>350 мл</td>
+                            <td>200 ₽</td>
+                        </tr>
+                        <tr class="price-row--hot">
+                            <td>5</td>
+                            <td>Раф</td>
+                            <td>300 мл</td>
+                            <td>220 ₽</td>
+                        </tr>
+
+                        <!-- Холодные напитки -->
+                        <tr class="price-row--cold">
+                            <td>6</td>
+                            <td>Айс-латте</td>
+                            <td>400 мл</td>
+                            <td>230 ₽</td>
+                        </tr>
+                        <tr class="price-row--cold">
+                            <td>7</td>
+                            <td>Фраппучино</td>
+                            <td>400 мл</td>
+                            <td>250 ₽</td>
+                        </tr>
+                        <tr class="price-row--cold">
+                            <td>8</td>
+                            <td>Холодный чай</td>
+                            <td>400 мл</td>
+                            <td>180 ₽</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ДЕСЕРТЫ ================= -->
+    <section class="section section--gray">
+        <div class="container">
+            <h2 class="section__title">Десерты и выпечка</h2>
+
+            <div class="price-table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Наименование</th>
+                            <th>Вес</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="price-row--dessert">
+                            <td>1</td>
+                            <td>Круассан классический</td>
+                            <td>90 г</td>
+                            <td>150 ₽</td>
+                        </tr>
+                        <tr class="price-row--dessert">
+                            <td>2</td>
+                            <td>Круассан с шоколадом</td>
+                            <td>100 г</td>
+                            <td>180 ₽</td>
+                        </tr>
+                        <tr class="price-row--dessert">
+                            <td>3</td>
+                            <td>Чизкейк классический</td>
+                            <td>120 г</td>
+                            <td>220 ₽</td>
+                        </tr>
+                        <tr class="price-row--dessert">
+                            <td>4</td>
+                            <td>Чизкейк ягодный</td>
+                            <td>130 г</td>
+                            <td>250 ₽</td>
+                        </tr>
+                        <tr class="price-row--dessert">
+                            <td>5</td>
+                            <td>Маффин шоколадный</td>
+                            <td>110 г</td>
+                            <td>180 ₽</td>
+                        </tr>
+                        <tr class="price-row--dessert">
+                            <td>6</td>
+                            <td>Тирамису</td>
+                            <td>120 г</td>
+                            <td>260 ₽</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= АКЦИЯ ================= -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section__title">Акционные предложения</h2>
+
+            <div class="price-table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Комбо-предложение</th>
+                            <th>Состав</th>
+                            <th>Цена</th>
+                            <th>Скидка</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="price-row--promo">
+                            <td>1</td>
+                            <td>Утренний набор</td>
+                            <td>Капучино + круассан</td>
+                            <td><s>330 ₽</s> 280 ₽</td>
+                            <td>-15%</td>
+                        </tr>
+                        <tr class="price-row--promo">
+                            <td>2</td>
+                            <td>Десертный дуэт</td>
+                            <td>Латте + чизкейк</td>
+                            <td><s>420 ₽</s> 350 ₽</td>
+                            <td>-17%</td>
+                        </tr>
+                        <tr class="price-row--promo">
+                            <td>3</td>
+                            <td>Для двоих</td>
+                            <td>2 капучино + 2 маффина</td>
+                            <td><s>720 ₽</s> 590 ₽</td>
+                            <td>-18%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= ПОДВАЛ ================= -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <nav class="footer__nav">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О компании</a>
+                <a href="menu.html">Меню</a>
+                <a href="price.html">Прайс-лист</a>
+            </nav>
+            <p class="footer__copy">© 2026 CoffeeTime. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
